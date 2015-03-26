@@ -10,10 +10,19 @@
 		02AF667D1AC49030007EB1F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF667C1AC49030007EB1F9 /* main.m */; };
 		02AF66801AC49030007EB1F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF667F1AC49030007EB1F9 /* AppDelegate.m */; };
 		02AF66831AC49030007EB1F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66821AC49030007EB1F9 /* ViewController.m */; };
-		02AF66861AC49030007EB1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66841AC49030007EB1F9 /* Main.storyboard */; };
 		02AF66881AC49030007EB1F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66871AC49030007EB1F9 /* Images.xcassets */; };
-		02AF668B1AC49030007EB1F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66891AC49030007EB1F9 /* LaunchScreen.xib */; };
 		02AF66971AC49030007EB1F9 /* MeetStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66961AC49030007EB1F9 /* MeetStudentTests.m */; };
+		02AF66A11AC490D4007EB1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66A01AC490D4007EB1F9 /* Main.storyboard */; };
+		02AF66A41AC491A5007EB1F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66A31AC491A5007EB1F9 /* MainViewController.m */; };
+		02AF66AC1AC491DE007EB1F9 /* AlunoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66A71AC491DE007EB1F9 /* AlunoViewController.m */; };
+		02AF66AD1AC491DE007EB1F9 /* CustomAlunoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66A91AC491DE007EB1F9 /* CustomAlunoViewController.m */; };
+		02AF66AE1AC491DE007EB1F9 /* CustomAlunoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF66AB1AC491DE007EB1F9 /* CustomAlunoNavViewController.m */; };
+		02AF66B51AC491F0007EB1F9 /* nome.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66AF1AC491F0007EB1F9 /* nome.json */; };
+		02AF66B61AC491F0007EB1F9 /* idade.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66B01AC491F0007EB1F9 /* idade.json */; };
+		02AF66B71AC491F0007EB1F9 /* sexo.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66B11AC491F0007EB1F9 /* sexo.json */; };
+		02AF66B81AC491F0007EB1F9 /* consideracoes.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66B21AC491F0007EB1F9 /* consideracoes.json */; };
+		02AF66B91AC491F0007EB1F9 /* media.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66B31AC491F0007EB1F9 /* media.json */; };
+		02AF66BA1AC491F0007EB1F9 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AF66B41AC491F0007EB1F9 /* images.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +43,25 @@
 		02AF667F1AC49030007EB1F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		02AF66811AC49030007EB1F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		02AF66821AC49030007EB1F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		02AF66851AC49030007EB1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02AF66871AC49030007EB1F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		02AF668A1AC49030007EB1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		02AF66901AC49030007EB1F9 /* MeetStudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetStudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AF66951AC49030007EB1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02AF66961AC49030007EB1F9 /* MeetStudentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetStudentTests.m; sourceTree = "<group>"; };
+		02AF66A01AC490D4007EB1F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		02AF66A21AC491A5007EB1F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		02AF66A31AC491A5007EB1F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		02AF66A61AC491DE007EB1F9 /* AlunoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlunoViewController.h; sourceTree = "<group>"; };
+		02AF66A71AC491DE007EB1F9 /* AlunoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlunoViewController.m; sourceTree = "<group>"; };
+		02AF66A81AC491DE007EB1F9 /* CustomAlunoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlunoViewController.h; sourceTree = "<group>"; };
+		02AF66A91AC491DE007EB1F9 /* CustomAlunoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlunoViewController.m; sourceTree = "<group>"; };
+		02AF66AA1AC491DE007EB1F9 /* CustomAlunoNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlunoNavViewController.h; sourceTree = "<group>"; };
+		02AF66AB1AC491DE007EB1F9 /* CustomAlunoNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlunoNavViewController.m; sourceTree = "<group>"; };
+		02AF66AF1AC491F0007EB1F9 /* nome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nome.json; sourceTree = "<group>"; };
+		02AF66B01AC491F0007EB1F9 /* idade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = idade.json; sourceTree = "<group>"; };
+		02AF66B11AC491F0007EB1F9 /* sexo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sexo.json; sourceTree = "<group>"; };
+		02AF66B21AC491F0007EB1F9 /* consideracoes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consideracoes.json; sourceTree = "<group>"; };
+		02AF66B31AC491F0007EB1F9 /* media.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = media.json; sourceTree = "<group>"; };
+		02AF66B41AC491F0007EB1F9 /* images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +103,14 @@
 		02AF66791AC49030007EB1F9 /* MeetStudent */ = {
 			isa = PBXGroup;
 			children = (
+				02AF66A21AC491A5007EB1F9 /* MainViewController.h */,
+				02AF66A31AC491A5007EB1F9 /* MainViewController.m */,
+				02AF66A51AC491C5007EB1F9 /* CustomView */,
+				02AF66A01AC490D4007EB1F9 /* Main.storyboard */,
 				02AF667E1AC49030007EB1F9 /* AppDelegate.h */,
 				02AF667F1AC49030007EB1F9 /* AppDelegate.m */,
 				02AF66811AC49030007EB1F9 /* ViewController.h */,
 				02AF66821AC49030007EB1F9 /* ViewController.m */,
-				02AF66841AC49030007EB1F9 /* Main.storyboard */,
-				02AF66871AC49030007EB1F9 /* Images.xcassets */,
-				02AF66891AC49030007EB1F9 /* LaunchScreen.xib */,
 				02AF667A1AC49030007EB1F9 /* Supporting Files */,
 			);
 			path = MeetStudent;
@@ -96,6 +119,13 @@
 		02AF667A1AC49030007EB1F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				02AF66AF1AC491F0007EB1F9 /* nome.json */,
+				02AF66B01AC491F0007EB1F9 /* idade.json */,
+				02AF66B11AC491F0007EB1F9 /* sexo.json */,
+				02AF66B21AC491F0007EB1F9 /* consideracoes.json */,
+				02AF66B31AC491F0007EB1F9 /* media.json */,
+				02AF66B41AC491F0007EB1F9 /* images.json */,
+				02AF66871AC49030007EB1F9 /* Images.xcassets */,
 				02AF667B1AC49030007EB1F9 /* Info.plist */,
 				02AF667C1AC49030007EB1F9 /* main.m */,
 			);
@@ -117,6 +147,19 @@
 				02AF66951AC49030007EB1F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02AF66A51AC491C5007EB1F9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				02AF66A61AC491DE007EB1F9 /* AlunoViewController.h */,
+				02AF66A71AC491DE007EB1F9 /* AlunoViewController.m */,
+				02AF66A81AC491DE007EB1F9 /* CustomAlunoViewController.h */,
+				02AF66A91AC491DE007EB1F9 /* CustomAlunoViewController.m */,
+				02AF66AA1AC491DE007EB1F9 /* CustomAlunoNavViewController.h */,
+				02AF66AB1AC491DE007EB1F9 /* CustomAlunoNavViewController.m */,
+			);
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +242,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AF66861AC49030007EB1F9 /* Main.storyboard in Resources */,
-				02AF668B1AC49030007EB1F9 /* LaunchScreen.xib in Resources */,
+				02AF66B81AC491F0007EB1F9 /* consideracoes.json in Resources */,
+				02AF66BA1AC491F0007EB1F9 /* images.json in Resources */,
+				02AF66B71AC491F0007EB1F9 /* sexo.json in Resources */,
+				02AF66B51AC491F0007EB1F9 /* nome.json in Resources */,
+				02AF66B91AC491F0007EB1F9 /* media.json in Resources */,
+				02AF66B61AC491F0007EB1F9 /* idade.json in Resources */,
+				02AF66A11AC490D4007EB1F9 /* Main.storyboard in Resources */,
 				02AF66881AC49030007EB1F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AF66AC1AC491DE007EB1F9 /* AlunoViewController.m in Sources */,
 				02AF66831AC49030007EB1F9 /* ViewController.m in Sources */,
 				02AF66801AC49030007EB1F9 /* AppDelegate.m in Sources */,
 				02AF667D1AC49030007EB1F9 /* main.m in Sources */,
+				02AF66A41AC491A5007EB1F9 /* MainViewController.m in Sources */,
+				02AF66AD1AC491DE007EB1F9 /* CustomAlunoViewController.m in Sources */,
+				02AF66AE1AC491DE007EB1F9 /* CustomAlunoNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +294,6 @@
 			targetProxy = 02AF66911AC49030007EB1F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		02AF66841AC49030007EB1F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02AF66851AC49030007EB1F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		02AF66891AC49030007EB1F9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02AF668A1AC49030007EB1F9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		02AF66981AC49030007EB1F9 /* Debug */ = {
