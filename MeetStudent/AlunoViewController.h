@@ -17,4 +17,5 @@
 @property (nonatomic, weak) NSString *consideracoes;
 @property (nonatomic, weak) NSString *imagem;
 
+
 @end

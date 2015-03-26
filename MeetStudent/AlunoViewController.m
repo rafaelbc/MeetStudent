@@ -31,7 +31,11 @@
     self.idadeField.userInteractionEnabled = NO;
     self.sexoField.userInteractionEnabled = NO;
     self.mediaField.userInteractionEnabled = NO;
-    //    self.consideracoesView.userInteractionEnabled = NO;
+    
+    self.consideracoesView.editable = NO;
+    
+    
+
     
     //set dinamic data
     self.imageView.image = [UIImage imageNamed:self.imagem];

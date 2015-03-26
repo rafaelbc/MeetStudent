@@ -445,6 +445,7 @@
 				02AF669C1AC49030007EB1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02AF669D1AC49030007EB1F9 /* Build configuration list for PBXNativeTarget "MeetStudentTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				02AF669F1AC49030007EB1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

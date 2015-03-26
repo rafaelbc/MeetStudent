@@ -210,7 +210,6 @@
         <scene sceneID="DYN-EG-cUx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Ssr-hk-KKY" customClass="ViewController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="V1f-Rn-bUT"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RLN-cv-I3G">
                         <autoresizingMask key="autoresizingMask"/>
