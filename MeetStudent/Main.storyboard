@@ -4,6 +4,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="9iv-DX-QFV">
+            <objects>
+                <navigationController id="CtC-ac-gkZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="l91-LB-hSu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zur-kD-qsJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YPb-J4-yHk" kind="relationship" relationship="rootViewController" id="Rq5-1T-cmf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHL-Wa-chU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8.5" y="920.5"/>
+        </scene>
         <!--Classes-->
         <scene sceneID="Gu6-lY-HYH">
             <objects>
@@ -46,7 +64,13 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Classes" id="hcf-ot-aiE"/>
+                    <navigationItem key="navigationItem" title="Classes" id="hcf-ot-aiE">
+                        <barButtonItem key="leftBarButtonItem" title="Voltar" id="rip-hH-ew7">
+                            <connections>
+                                <segue destination="Ssr-hk-KKY" kind="modal" id="b1a-cw-fG1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXU-u9-NBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jS8-rx-9eU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2152.5" y="920.5"/>
+            <point key="canvasLocation" x="2304.5" y="920.5"/>
         </scene>
         <!--Alunos-->
         <scene sceneID="UZx-n8-h6l">
@@ -187,7 +211,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RrN-RZ-gdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="gCH-LH-vCw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1711.5" y="920.5"/>
+            <point key="canvasLocation" x="1739.5" y="920.5"/>
         </scene>
         <!--Custom Aluno Nav View Controller-->
         <scene sceneID="vCG-Q7-GFf">
@@ -209,6 +233,7 @@
         <!--View Controller-->
         <scene sceneID="DYN-EG-cUx">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QK-5n-bV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="Ssr-hk-KKY" customClass="ViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="V1f-Rn-bUT"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -216,14 +241,60 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="YPb-J4-yHk" kind="relationship" relationship="rootViewController" id="10C-M6-enG"/>
+                        <segue destination="G8l-R3-sCt" kind="relationship" relationship="rootViewController" id="dvS-j0-g2y"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6QK-5n-bV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-43.5" y="920.5"/>
+            <point key="canvasLocation" x="-1204.5" y="920.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Om1-Bw-ewc">
+            <objects>
+                <viewController id="G8l-R3-sCt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="knT-rl-OL9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z4p-RU-PMO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVY-Cr-X1h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="XaV-o9-5F8">
+                                <rect key="frame" x="100" y="173" width="175" height="163"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MeetStudent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-a7-IR9">
+                                <rect key="frame" x="16" y="344" width="343" height="21"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgX-ct-UJh">
+                                <rect key="frame" x="-4" y="609" width="382" height="58"/>
+                                <color key="backgroundColor" red="0.12156862745098039" green="0.69411764705882351" blue="0.54117647058823526" alpha="0.12" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                                <size key="titleShadowOffset" width="-1" height="0.0"/>
+                                <state key="normal" title="Visualizar Classes">
+                                    <color key="titleColor" red="0.082352941176470587" green="0.43137254901960786" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.83463541666666663" green="0.83463541666666663" blue="0.83463541666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CtC-ac-gkZ" kind="custom" id="1Vp-Q8-LDV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9772529987373737" green="0.9772529987373737" blue="0.9772529987373737" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KIt-aT-cEw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yk0-8U-bg7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-610.5" y="920.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="256" height="256"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
