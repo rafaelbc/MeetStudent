@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-8.5" y="920.5"/>
         </scene>
-        <!--Classes-->
+        <!--Sistemas de Informação-->
         <scene sceneID="Gu6-lY-HYH">
             <objects>
                 <tableViewController id="YPb-J4-yHk" customClass="MainViewController" sceneMemberID="viewController">
@@ -40,14 +40,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Paulo Arruda" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Shz-KI-6Q3">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Projeto Integrador III" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Shz-KI-6Q3">
                                                     <rect key="frame" x="15" y="4" width="169" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Professor level hard" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="241" id="MA3-we-1T8">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Professor Paulo Arruda" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="241" id="MA3-we-1T8">
                                                     <rect key="frame" x="15" y="26" width="241" height="29"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -64,7 +64,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Classes" id="hcf-ot-aiE">
+                    <navigationItem key="navigationItem" title="Sistemas de Informação" id="hcf-ot-aiE">
                         <barButtonItem key="leftBarButtonItem" title="Voltar" id="rip-hH-ew7">
                             <connections>
                                 <segue destination="Ssr-hk-KKY" kind="modal" id="b1a-cw-fG1"/>
@@ -273,7 +273,7 @@
                                 <color key="backgroundColor" red="0.12156862745098039" green="0.69411764705882351" blue="0.54117647058823526" alpha="0.12" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
                                 <size key="titleShadowOffset" width="-1" height="0.0"/>
-                                <state key="normal" title="Visualizar Classes">
+                                <state key="normal" title="Visualizar Cursos">
                                     <color key="titleColor" red="0.082352941176470587" green="0.43137254901960786" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.83463541666666663" green="0.83463541666666663" blue="0.83463541666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
